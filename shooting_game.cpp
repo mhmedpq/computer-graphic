@@ -488,7 +488,7 @@ void musicInit(const char *filepath)
     alGenSources(1, &musicSource);
     alSourcei(musicSource, AL_BUFFER, musicBuffer);
     alSourcei(musicSource, AL_LOOPING, AL_TRUE); // ← loops forever
-    alSourcef(musicSource, AL_GAIN, 0.5f);       // ← volume (0.0 - 1.0)
+    alSourcef(musicSource, AL_GAIN, 1.0f);       // ← volume (0.0 - 1.0)
     alSourcef(musicSource, AL_PITCH, 1.0f);
     alSourcei(musicSource, AL_SOURCE_RELATIVE, AL_TRUE); // not 3D positioned
     alSource3f(musicSource, AL_POSITION, 0, 0, 0);
@@ -946,7 +946,7 @@ void initGame()
     gs.shootTimer = 0;
     gs.muzzleTimer = 0;
     gs.totalTime = 0;
-    gs.gameTime = 60.0f; // 1 minute
+    gs.gameTime = 20.0f; // 1 minute
     gs.gameOver = false;
     gs.paused = false;
     gs.started = true;
