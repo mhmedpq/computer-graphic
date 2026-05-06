@@ -74,7 +74,7 @@ g++ shooting_game.cpp -o game -lGL -lGLU -lglut -lm -lopenal -lsndfile
 ```
 
 > ⚠️ Place your background music file at `assets/Kiwi.mp3` before running.  
-> If no audio device is found, the game runs silently — no crash.
+> If no audio device is found, the game runs silently.
 
 ---
 
