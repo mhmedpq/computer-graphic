@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/7d425a05-f262-47d1-8af5-40be63ffc772
+
 # 🎯 3D Shooting Arena
 
 > A first-person shooter game built from scratch in **C++** using **OpenGL/GLUT** for graphics and **OpenAL** for 3D spatial audio — no game engine, no shaders, no external assets.
