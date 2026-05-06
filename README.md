@@ -258,5 +258,3 @@ shooting_game.cpp
 | `onMouseMove(...)` | Mouse move handler — updates camera aim |
 
 ---
-
-*Built with ❤️ using raw OpenGL — no engine, no shortcuts.*
